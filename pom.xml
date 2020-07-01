@@ -5,7 +5,7 @@
   <groupId>org.shing</groupId>
   <artifactId>shing-common-code</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>shing-common-code</name>
   <url>http://maven.apache.org</url>
@@ -22,4 +22,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <modules>
+  	<module>shing-common-code-1-00</module>
+  </modules>
 </project>
