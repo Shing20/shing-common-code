@@ -25,5 +25,6 @@
   <modules>
   	<module>shing-common-code-1-00</module>
   	<module>shing-common-code-2-00</module>
+  	<module>shing-common-code-3-00</module>
   </modules>
 </project>
