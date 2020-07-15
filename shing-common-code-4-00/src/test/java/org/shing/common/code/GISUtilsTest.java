@@ -16,7 +16,7 @@ public class GISUtilsTest {
 	@Test
 	public void gISUtilsTest() {
 		logger.info("getAddressToLocation={}",
-				GISUtils.getAddressToLocation("广东省深圳市布吉街道布吉路73-83号（单号）时代广场布吉路83号一楼、二楼202"));
+				GISUtils.getAddressToLocation("广东省南山区中山公园"));
 
 	}
 
