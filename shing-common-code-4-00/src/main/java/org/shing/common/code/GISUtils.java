@@ -60,8 +60,8 @@ public class GISUtils {
 				return null;
 			}
 
-			map.put("lng", (BigDecimal) locationObj.get("lat"));
-			map.put("lat", (BigDecimal) locationObj.get("lng"));
+			map.put("lng", (BigDecimal) locationObj.get("lng"));
+			map.put("lat", (BigDecimal) locationObj.get("lat"));
 
 		} catch (Exception e) {
 			logger.error("failed e={}", e);
