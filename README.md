@@ -7,4 +7,6 @@
 # [shing-common-code-3-00：安全单例](https://github.com/Shing20/shing-common-code/tree/master/shing-common-code-3-00)
 # [shing-common-code-4-00：根据经纬度获取地址](https://github.com/Shing20/shing-common-code/tree/master/shing-common-code-4-00)
 # [shing-common-code-5-00：json转换Java对象](https://github.com/Shing20/shing-common-code/tree/master/shing-common-code-5-00)
+# [shing-common-code-6-00：Spring AOP增强类型](https://github.com/Shing20/shing-common-code/tree/master/shing-common-code-6-00)
+# [shing-common-code-7-00：RSA生成工具](https://github.com/Shing20/shing-common-code/tree/master/shing-common-code-7-00)
 # [eclipse&STS快速入门](https://mp.weixin.qq.com/s/FUcxzAtAPWjIPk9jYjx7sQ)
