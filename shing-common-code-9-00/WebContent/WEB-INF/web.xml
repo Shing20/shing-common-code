@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>shing-common-code-9-00</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<!-- 映射url到Servlet 包名+类名 -->
+	<servlet>
+		<!-- Web中唯一,Servlet name -->
+		<servlet-name>ServletTest</servlet-name>
+		<!-- 指定类的完全限定名 -->
+		<servlet-class>org.shing.com.servlet.ServletTest</servlet-class>
+		<init-param>
+		  <param-name>init param</param-name>
+		  <param-value>hi Shing</param-value>
+		</init-param>
+	</servlet>
+	<!-- 映射url到内部名 -->
+	<servlet-mapping>
+		<servlet-name>ServletTest</servlet-name>
+		<!-- Web应用程序的路径 可以使用 -->
+		<!-- /xxx 精确匹配 /xxx/* -->
+		<!-- 路径匹配 *.json 后缀名匹配 -->
+		<url-pattern>/ServletTest</url-pattern>
+	</servlet-mapping>
+
+</web-app>
